@@ -10511,7 +10511,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="SUPPLY12" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="SUPPLY13" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND21" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="Y2" library="SparkFun-FreqCtrl" deviceset="CRYSTAL" device="SMD" value="12MHz"/>
 <part name="GND22" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R14" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="27"/>
 <part name="R15" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="27"/>
@@ -10542,7 +10541,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="USB_ER" library="adafruit" deviceset="LED" device="CHIP-LED0603"/>
 <part name="12V_LED" library="adafruit" deviceset="LED" device="CHIP-LED0603"/>
 <part name="STATUS" library="adafruit" deviceset="LED" device="CHIP-LED0603"/>
-<part name="CRUISE" library="adafruit" deviceset="LED" device="CHIP-LED0603" value="CRUISE"/>
+<part name="CRUISE" library="adafruit" deviceset="LED" device="CHIP-LED0603"/>
 <part name="SP1" library="adafruit" deviceset="LED" device="CHIP-LED0603"/>
 <part name="SP2" library="adafruit" deviceset="LED" device="CHIP-LED0603"/>
 <part name="R12" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="620"/>
@@ -10569,7 +10568,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="R28" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="1M"/>
 <part name="R29" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="72K"/>
 <part name="GND34" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="12V" library="Senior Design" deviceset="DURACLIK-2" device="SMD"/>
+<part name="12V" library="Senior Design" deviceset="DURACLIK-2" device="SMD" value=""/>
 <part name="GND35" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="1" library="8PIN_CONNECTOR" deviceset="8PIN_CONNECTOR" device=""/>
 <part name="2" library="8PIN_CONNECTOR" deviceset="8PIN_CONNECTOR" device=""/>
@@ -10578,7 +10577,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="R30" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="1M"/>
 <part name="R31" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="72K"/>
 <part name="GND36" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="U3" library="SparkFun-AnalogIC" deviceset="MCP42XXX" device=""/>
+<part name="DIGI_POT" library="SparkFun-AnalogIC" deviceset="MCP42XXX" device=""/>
 <part name="SUPPLY20" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND38" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND39" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -10593,6 +10592,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="U$8" library="FPF2700" deviceset="FPF2700" device=""/>
 <part name="R2" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10K"/>
 <part name="GND7" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="Y3" library="SparkFun-FreqCtrl" deviceset="CRYSTAL" device="TXC-7A" value="12mHz"/>
+<part name="C22" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="18pF"/>
+<part name="C23" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="18pF"/>
 </parts>
 <sheets>
 <sheet>
@@ -11356,7 +11358,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 <instance part="SUPPLY12" gate="G$1" x="101.6" y="208.28"/>
 <instance part="SUPPLY13" gate="G$1" x="63.5" y="246.38"/>
 <instance part="GND21" gate="1" x="86.36" y="238.76"/>
-<instance part="Y2" gate="G$1" x="88.9" y="198.12" rot="R270"/>
 <instance part="GND22" gate="1" x="38.1" y="228.6"/>
 <instance part="R14" gate="G$1" x="88.9" y="223.52"/>
 <instance part="R15" gate="G$1" x="88.9" y="220.98"/>
@@ -11423,7 +11424,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <instance part="R30" gate="G$1" x="205.74" y="142.24" rot="R90"/>
 <instance part="R31" gate="G$1" x="205.74" y="129.54" rot="R90"/>
 <instance part="GND36" gate="1" x="205.74" y="119.38"/>
-<instance part="U3" gate="G$1" x="203.2" y="-43.18" rot="R270"/>
+<instance part="DIGI_POT" gate="G$1" x="203.2" y="-43.18" rot="R270"/>
 <instance part="SUPPLY20" gate="G$1" x="226.06" y="-25.4" rot="R270"/>
 <instance part="GND38" gate="1" x="195.58" y="-30.48" rot="R270"/>
 <instance part="GND39" gate="1" x="167.64" y="-27.94" rot="R270"/>
@@ -11438,6 +11439,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 <instance part="U$8" gate="G$1" x="134.62" y="91.44"/>
 <instance part="R2" gate="G$1" x="154.94" y="73.66" rot="R90"/>
 <instance part="GND7" gate="1" x="152.4" y="60.96"/>
+<instance part="Y3" gate="G$1" x="96.52" y="198.12" rot="R90"/>
+<instance part="C22" gate="G$1" x="88.9" y="200.66" rot="R90"/>
+<instance part="C23" gate="G$1" x="88.9" y="195.58" rot="R90"/>
 </instances>
 <busses>
 <bus name="B$1">
@@ -11603,7 +11607,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 </net>
 <net name="REGEN_OUT" class="0">
 <segment>
-<pinref part="U3" gate="G$1" pin="W0"/>
+<pinref part="DIGI_POT" gate="G$1" pin="W0"/>
 <wire x1="210.82" y1="-33.02" x2="210.82" y2="-12.7" width="0.1524" layer="91"/>
 <label x="210.82" y="-15.24" size="1.778" layer="95" font="vector" rot="R270"/>
 </segment>
@@ -11648,7 +11652,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <segment>
 <wire x1="193.04" y1="-33.02" x2="193.04" y2="-15.24" width="0.1524" layer="91"/>
 <label x="193.04" y="-15.24" size="1.778" layer="95" font="vector" rot="R270"/>
-<pinref part="U3" gate="G$1" pin="SCK"/>
+<pinref part="DIGI_POT" gate="G$1" pin="SCK"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="SCLK"/>
@@ -11668,7 +11672,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <label x="302.26" y="91.44" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U3" gate="G$1" pin="DO"/>
+<pinref part="DIGI_POT" gate="G$1" pin="DO"/>
 <wire x1="187.96" y1="-33.02" x2="187.96" y2="-15.24" width="0.1524" layer="91"/>
 <label x="187.96" y="-15.24" size="1.778" layer="95" font="vector" rot="R270"/>
 </segment>
@@ -11692,7 +11696,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <segment>
 <wire x1="190.5" y1="-33.02" x2="190.5" y2="-15.24" width="0.1524" layer="91"/>
 <label x="190.5" y="-15.24" size="1.778" layer="95" font="vector" rot="R270"/>
-<pinref part="U3" gate="G$1" pin="DI"/>
+<pinref part="DIGI_POT" gate="G$1" pin="DI"/>
 </segment>
 </net>
 <net name="SD_DETECT" class="0">
@@ -12377,23 +12381,23 @@ We've spent an enormous amount of time creating and checking these footprints an
 <junction x="205.74" y="121.92"/>
 </segment>
 <segment>
-<pinref part="U3" gate="G$1" pin="B1"/>
+<pinref part="DIGI_POT" gate="G$1" pin="B1"/>
 <pinref part="GND38" gate="1" pin="GND"/>
 <wire x1="198.12" y1="-33.02" x2="198.12" y2="-30.48" width="0.1524" layer="91"/>
-<pinref part="U3" gate="G$1" pin="B0"/>
+<pinref part="DIGI_POT" gate="G$1" pin="B0"/>
 <wire x1="208.28" y1="-33.02" x2="208.28" y2="-30.48" width="0.1524" layer="91"/>
 <wire x1="208.28" y1="-30.48" x2="198.12" y2="-30.48" width="0.1524" layer="91"/>
 <junction x="198.12" y="-30.48"/>
 </segment>
 <segment>
-<pinref part="U3" gate="G$1" pin="GND"/>
+<pinref part="DIGI_POT" gate="G$1" pin="GND"/>
 <wire x1="172.72" y1="-33.02" x2="172.72" y2="-27.94" width="0.1524" layer="91"/>
 <pinref part="GND39" gate="1" pin="GND"/>
 <wire x1="172.72" y1="-27.94" x2="170.18" y2="-27.94" width="0.1524" layer="91"/>
-<pinref part="U3" gate="G$1" pin="RST"/>
+<pinref part="DIGI_POT" gate="G$1" pin="RST"/>
 <wire x1="177.8" y1="-33.02" x2="172.72" y2="-33.02" width="0.1524" layer="91"/>
 <junction x="172.72" y="-33.02"/>
-<pinref part="U3" gate="G$1" pin="SHTDWN"/>
+<pinref part="DIGI_POT" gate="G$1" pin="SHTDWN"/>
 <wire x1="180.34" y1="-33.02" x2="177.8" y2="-33.02" width="0.1524" layer="91"/>
 <junction x="177.8" y="-33.02"/>
 </segment>
@@ -12558,7 +12562,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <pinref part="SUPPLY17" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
-<pinref part="U3" gate="G$1" pin="VCC"/>
+<pinref part="DIGI_POT" gate="G$1" pin="VCC"/>
 <pinref part="SUPPLY20" gate="G$1" pin="3.3V"/>
 <wire x1="220.98" y1="-33.02" x2="220.98" y2="-25.4" width="0.1524" layer="91"/>
 <wire x1="220.98" y1="-25.4" x2="226.06" y2="-25.4" width="0.1524" layer="91"/>
@@ -12663,20 +12667,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 <pinref part="USB_ER" gate="G$1" pin="C"/>
 <wire x1="322.58" y1="-40.64" x2="322.58" y2="-58.42" width="0.1524" layer="91"/>
 <label x="322.58" y="-40.64" size="1.778" layer="95" rot="R270"/>
-</segment>
-</net>
-<net name="N$21" class="0">
-<segment>
-<pinref part="IC1" gate="IC" pin="XTOUT"/>
-<pinref part="Y2" gate="G$1" pin="2"/>
-<wire x1="81.28" y1="195.58" x2="88.9" y2="195.58" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$22" class="0">
-<segment>
-<pinref part="IC1" gate="IC" pin="XTIN"/>
-<pinref part="Y2" gate="G$1" pin="1"/>
-<wire x1="81.28" y1="200.66" x2="88.9" y2="200.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$15" class="0">
@@ -12919,7 +12909,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <segment>
 <wire x1="185.42" y1="-33.02" x2="185.42" y2="-15.24" width="0.1524" layer="91"/>
 <label x="185.42" y="-12.7" size="1.778" layer="95" font="vector" rot="R270"/>
-<pinref part="U3" gate="G$1" pin="CS"/>
+<pinref part="DIGI_POT" gate="G$1" pin="CS"/>
 </segment>
 </net>
 <net name="CAP_V_IN" class="0">
@@ -12967,12 +12957,12 @@ We've spent an enormous amount of time creating and checking these footprints an
 <segment>
 <wire x1="203.2" y1="-33.02" x2="203.2" y2="-12.7" width="0.1524" layer="91"/>
 <label x="203.2" y="-15.24" size="1.778" layer="95" font="vector" rot="R270"/>
-<pinref part="U3" gate="G$1" pin="A1"/>
+<pinref part="DIGI_POT" gate="G$1" pin="A1"/>
 </segment>
 <segment>
 <wire x1="213.36" y1="-33.02" x2="213.36" y2="-12.7" width="0.1524" layer="91"/>
 <label x="213.36" y="-15.24" size="1.778" layer="95" font="vector" rot="R270"/>
-<pinref part="U3" gate="G$1" pin="A0"/>
+<pinref part="DIGI_POT" gate="G$1" pin="A0"/>
 </segment>
 </net>
 <net name="THROTTLE_OUT" class="0">
@@ -12984,7 +12974,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <segment>
 <wire x1="200.66" y1="-33.02" x2="200.66" y2="-12.7" width="0.1524" layer="91"/>
 <label x="200.66" y="-12.7" size="1.778" layer="95" font="vector" rot="R270"/>
-<pinref part="U3" gate="G$1" pin="W1"/>
+<pinref part="DIGI_POT" gate="G$1" pin="W1"/>
 </segment>
 </net>
 <net name="SPARE5" class="0">
@@ -13042,6 +13032,34 @@ We've spent an enormous amount of time creating and checking these footprints an
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="147.32" y1="93.98" x2="154.94" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="154.94" y1="93.98" x2="154.94" y2="78.74" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="IC1" gate="IC" pin="XTIN"/>
+<pinref part="C22" gate="G$1" pin="1"/>
+<wire x1="83.82" y1="200.66" x2="81.28" y2="200.66" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="IC1" gate="IC" pin="XTOUT"/>
+<pinref part="C23" gate="G$1" pin="1"/>
+<wire x1="83.82" y1="195.58" x2="81.28" y2="195.58" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="C22" gate="G$1" pin="2"/>
+<pinref part="Y3" gate="G$1" pin="2"/>
+<wire x1="91.44" y1="200.66" x2="96.52" y2="200.66" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$13" class="0">
+<segment>
+<pinref part="Y3" gate="G$1" pin="1"/>
+<pinref part="C23" gate="G$1" pin="2"/>
+<wire x1="96.52" y1="195.58" x2="91.44" y2="195.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

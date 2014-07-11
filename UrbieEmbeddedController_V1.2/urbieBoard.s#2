@@ -11812,29 +11812,29 @@ Standard 7805 5V regulator. IGO (Input Ground Output). Spark Fun Electronics SKU
 <part name="GND28" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND29" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R24" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="33K"/>
-<part name="R25" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10K"/>
+<part name="R25" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="7.5K"/>
 <part name="SUPPLY8" library="SparkFun-Aesthetics" deviceset="V_BATT" device=""/>
 <part name="GND32" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R26" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="1M"/>
-<part name="R27" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="72K"/>
+<part name="R27" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="51K"/>
 <part name="GND33" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R28" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="1M"/>
-<part name="R29" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="72K"/>
+<part name="R29" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="51K"/>
 <part name="GND34" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="12V" library="Senior Design" deviceset="DURACLIK-2" device="SMD" value=""/>
 <part name="GND35" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R30" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="1M"/>
-<part name="R31" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="72K"/>
+<part name="R31" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="51K"/>
 <part name="GND36" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="DIGI_POT" library="SparkFun-AnalogIC" deviceset="MCP42XXX" device=""/>
 <part name="SUPPLY20" library="SparkFun-Aesthetics" deviceset="3.3V" device=""/>
 <part name="GND38" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND39" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R32" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="1.1K"/>
-<part name="R33" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="2.2K"/>
+<part name="R33" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="1.0K"/>
 <part name="GND37" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R34" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="1.1K"/>
-<part name="R35" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="2.2K"/>
+<part name="R35" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="1.0K"/>
 <part name="GND40" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="M"/>
 <part name="PCB1" library="dp_devices" deviceset="PCB_DP_RECTANGLE" device="-80X100"/>
@@ -14194,23 +14194,6 @@ Standard 7805 5V regulator. IGO (Input Ground Output). Spark Fun Electronics SKU
 <label x="132.08" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="5V_IN" class="0">
-<segment>
-<wire x1="203.2" y1="-33.02" x2="203.2" y2="-12.7" width="0.1524" layer="91"/>
-<label x="203.2" y="-15.24" size="1.778" layer="95" font="vector" rot="R270"/>
-<pinref part="DIGI_POT" gate="G$1" pin="A1"/>
-</segment>
-<segment>
-<wire x1="213.36" y1="-33.02" x2="213.36" y2="-12.7" width="0.1524" layer="91"/>
-<label x="213.36" y="-15.24" size="1.778" layer="95" font="vector" rot="R270"/>
-<pinref part="DIGI_POT" gate="G$1" pin="A0"/>
-</segment>
-<segment>
-<pinref part="J1" gate="J$1" pin="PIN4"/>
-<wire x1="129.54" y1="7.62" x2="160.02" y2="7.62" width="0.1524" layer="91"/>
-<label x="132.08" y="7.62" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="THROTTLE_OUT" class="0">
 <segment>
 <wire x1="200.66" y1="-33.02" x2="200.66" y2="-12.7" width="0.1524" layer="91"/>
@@ -14362,6 +14345,21 @@ Standard 7805 5V regulator. IGO (Input Ground Output). Spark Fun Electronics SKU
 <wire x1="215.9" y1="78.74" x2="215.9" y2="86.36" width="0.1524" layer="91"/>
 <junction x="215.9" y="78.74"/>
 <label x="205.74" y="86.36" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J1" gate="J$1" pin="PIN4"/>
+<wire x1="129.54" y1="7.62" x2="160.02" y2="7.62" width="0.1524" layer="91"/>
+<label x="132.08" y="7.62" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="203.2" y1="-33.02" x2="203.2" y2="-12.7" width="0.1524" layer="91"/>
+<label x="203.2" y="-15.24" size="1.778" layer="95" font="vector" rot="R270"/>
+<pinref part="DIGI_POT" gate="G$1" pin="A1"/>
+</segment>
+<segment>
+<wire x1="213.36" y1="-33.02" x2="213.36" y2="-12.7" width="0.1524" layer="91"/>
+<label x="213.36" y="-15.24" size="1.778" layer="95" font="vector" rot="R270"/>
+<pinref part="DIGI_POT" gate="G$1" pin="A0"/>
 </segment>
 </net>
 </nets>

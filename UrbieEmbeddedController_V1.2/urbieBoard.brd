@@ -13975,9 +13975,9 @@ design rules under a new name.</description>
 </element>
 <element name="U$8" library="FPF2700" package="FPF2700" value="FPF2700" x="18.161" y="58.928" rot="R90"/>
 <element name="R2" library="SparkFun-Passives" package="0603-RES" value="110K" x="11.557" y="57.531" rot="R90"/>
-<element name="U$4" library="Senior Design" package="SHELL" value="" x="28.194" y="12.954"/>
-<element name="U$5" library="Senior Design" package="SEM" value="" x="27.686" y="7.62"/>
-<element name="U$6" library="Senior Design" package="CU-PILLAR" value="" x="67.564" y="7.366"/>
+<element name="U$4" library="Senior Design" package="SHELL" value="" x="30.226" y="11.684"/>
+<element name="U$5" library="Senior Design" package="SEM" value="" x="29.718" y="6.604"/>
+<element name="U$6" library="Senior Design" package="CU-PILLAR" value="" x="64.77" y="7.62"/>
 <element name="Y3" library="SparkFun-FreqCtrl" package="CRYSTAL-TXC-7A" value="12mHz" x="38.1" y="26.416" rot="R270"/>
 <element name="C22" library="SparkFun-Capacitors" package="0603-CAP" value="18pF" x="41.91" y="27.178" rot="R180"/>
 <element name="C23" library="SparkFun-Capacitors" package="0603-CAP" value="18pF" x="41.91" y="24.892" rot="R180"/>

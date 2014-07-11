@@ -12421,7 +12421,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="GND34" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="J1" library="Senior Design" deviceset="DURACLIK-2" device="SMD"/>
 <part name="GND35" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="SUPPLY18" library="SparkFun-Aesthetics" deviceset="V_BATT" device=""/>
 <part name="U$4" library="8PIN_CONNECTOR" deviceset="8PIN_CONNECTOR" device=""/>
 <part name="U$5" library="8PIN_CONNECTOR" deviceset="8PIN_CONNECTOR" device=""/>
 <part name="U$6" library="8PIN_CONNECTOR" deviceset="8PIN_CONNECTOR" device=""/>
@@ -13266,7 +13265,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 <instance part="GND34" gate="1" x="180.34" y="119.38"/>
 <instance part="J1" gate="J$1" x="142.24" y="-38.1"/>
 <instance part="GND35" gate="1" x="149.86" y="-45.72"/>
-<instance part="SUPPLY18" gate="G$1" x="149.86" y="-30.48"/>
 <instance part="U$4" gate="G$1" x="-20.32" y="-35.56" rot="R90"/>
 <instance part="U$5" gate="G$1" x="30.48" y="-35.56" rot="R90"/>
 <instance part="U$6" gate="G$1" x="76.2" y="-35.56" rot="R90"/>
@@ -14215,8 +14213,8 @@ We've spent an enormous amount of time creating and checking these footprints an
 </segment>
 <segment>
 <pinref part="J1" gate="J$1" pin="PIN1"/>
-<wire x1="149.86" y1="-38.1" x2="149.86" y2="-43.18" width="0.1524" layer="91"/>
 <pinref part="GND35" gate="1" pin="GND"/>
+<wire x1="149.86" y1="-38.1" x2="149.86" y2="-43.18" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R31" gate="G$1" pin="1"/>
@@ -14438,11 +14436,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 <pinref part="R24" gate="G$1" pin="2"/>
 <wire x1="127" y1="147.32" x2="127" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="SUPPLY8" gate="G$1" pin="V_BATT"/>
-</segment>
-<segment>
-<pinref part="J1" gate="J$1" pin="PIN2"/>
-<wire x1="149.86" y1="-35.56" x2="149.86" y2="-30.48" width="0.1524" layer="91"/>
-<pinref part="SUPPLY18" gate="G$1" pin="V_BATT"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -14855,6 +14848,13 @@ We've spent an enormous amount of time creating and checking these footprints an
 <pinref part="U$1" gate="G$1" pin="PA2(ADC2/AC2)"/>
 <wire x1="71.12" y1="121.92" x2="101.6" y2="121.92" width="0.1524" layer="91"/>
 <label x="73.66" y="121.92" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="V_BATT_IN" class="0">
+<segment>
+<pinref part="J1" gate="J$1" pin="PIN2"/>
+<label x="144.78" y="-25.4" size="1.778" layer="95"/>
+<wire x1="149.86" y1="-35.56" x2="149.86" y2="-30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

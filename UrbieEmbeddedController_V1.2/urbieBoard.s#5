@@ -10515,7 +10515,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 <part name="C9" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="C10" library="SparkFun-Capacitors" deviceset="CAP" device="0603-CAP" value="0.1uF"/>
 <part name="R9" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="100K"/>
-<part name="R10" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="100K"/>
 <part name="R11" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="10K"/>
 <part name="2.1" library="SparkFun-Aesthetics" deviceset="2.8V" device="" value="2.5V"/>
 <part name="GND2" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -11360,8 +11359,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <instance part="R1" gate="G$1" x="261.62" y="78.74"/>
 <instance part="C9" gate="G$1" x="304.8" y="68.58" rot="R180"/>
 <instance part="C10" gate="G$1" x="299.72" y="68.58" rot="R180"/>
-<instance part="R9" gate="G$1" x="297.18" y="93.98"/>
-<instance part="R10" gate="G$1" x="297.18" y="83.82"/>
+<instance part="R9" gate="G$1" x="292.1" y="88.9"/>
 <instance part="R11" gate="G$1" x="91.44" y="205.74"/>
 <instance part="2.1" gate="G$1" x="71.12" y="132.08"/>
 <instance part="GND2" gate="1" x="-33.02" y="40.64"/>
@@ -11377,7 +11375,7 @@ We've spent an enormous amount of time creating and checking these footprints an
 <instance part="R13" gate="G$1" x="-27.94" y="127"/>
 <instance part="SUPPLY7" gate="G$1" x="327.66" y="48.26"/>
 <instance part="GND14" gate="1" x="330.2" y="33.02"/>
-<instance part="SUPPLY10" gate="G$1" x="289.56" y="96.52"/>
+<instance part="SUPPLY10" gate="G$1" x="287.02" y="96.52"/>
 <instance part="GND16" gate="1" x="312.42" y="96.52"/>
 <instance part="SUPPLY11" gate="G$1" x="304.8" y="76.2"/>
 <instance part="GND17" gate="1" x="304.8" y="58.42"/>
@@ -11715,12 +11713,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="DATA_IN"/>
-<wire x1="314.96" y1="88.9" x2="307.34" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="314.96" y1="88.9" x2="297.18" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="R9" gate="G$1" pin="2"/>
-<wire x1="307.34" y1="88.9" x2="299.72" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="302.26" y1="93.98" x2="307.34" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="307.34" y1="93.98" x2="307.34" y2="88.9" width="0.1524" layer="91"/>
-<junction x="307.34" y="88.9"/>
+<junction x="297.18" y="88.9"/>
 <label x="302.26" y="88.9" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -12127,11 +12122,16 @@ We've spent an enormous amount of time creating and checking these footprints an
 <label x="269.24" y="-15.24" size="1.778" layer="95" rot="R270"/>
 </segment>
 </net>
-<net name="SPARE" class="0">
+<net name="SD_CS" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="PF4"/>
 <wire x1="71.12" y1="2.54" x2="101.6" y2="2.54" width="0.1524" layer="91"/>
 <label x="73.66" y="2.54" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="CS"/>
+<wire x1="314.96" y1="83.82" x2="302.26" y2="83.82" width="0.1524" layer="91"/>
+<label x="302.26" y="83.82" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -12508,14 +12508,9 @@ We've spent an enormous amount of time creating and checking these footprints an
 <pinref part="SUPPLY7" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
-<pinref part="R10" gate="G$1" pin="1"/>
-<wire x1="292.1" y1="83.82" x2="289.56" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="SUPPLY10" gate="G$1" pin="3.3V"/>
-<wire x1="289.56" y1="83.82" x2="289.56" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="R9" gate="G$1" pin="1"/>
-<wire x1="289.56" y1="93.98" x2="289.56" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="292.1" y1="93.98" x2="289.56" y2="93.98" width="0.1524" layer="91"/>
-<junction x="289.56" y="93.98"/>
+<wire x1="287.02" y1="88.9" x2="287.02" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="VDD"/>
@@ -12659,13 +12654,6 @@ We've spent an enormous amount of time creating and checking these footprints an
 <pinref part="U$7" gate="G$1" pin="6"/>
 <wire x1="132.08" y1="43.18" x2="154.94" y2="43.18" width="0.1524" layer="91"/>
 <label x="132.08" y="43.18" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$17" class="0">
-<segment>
-<pinref part="U$2" gate="G$1" pin="CS"/>
-<pinref part="R10" gate="G$1" pin="2"/>
-<wire x1="314.96" y1="83.82" x2="302.26" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="USB_V+" class="0">
