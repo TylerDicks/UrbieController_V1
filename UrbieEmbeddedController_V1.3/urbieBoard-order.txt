@@ -1,0 +1,50 @@
+Order list for C:/Users/Tyler/Documents/GitHub/UrbieController_V1/UrbieEmbeddedController_V1.2/urbieBoard.sch
+Exported from EAGLE with DesignLink
+
+Quantity	Value	Package	Order code	Manufacturer	Manuf. Code	Availability	Price (from)	Description
+1		DURACLIK-2	unknown					
+4		CHIP-LED0603	unknown					
+2		USB-MINIB	unknown					
+4	18pF	0603-CAP	60R6182		06031A180JAT2A	139778	0.027	AVX - 06031A180JAT2A - CAPACITOR CERAMIC 18PF 100V, C0G, 5%, 0603
+11	0.1uF	0603-CAP	unknown					
+2	10uF	0603-CAP	unknown					
+3	100nF	0603-CAP	unknown					
+1	4.7uF	0603-CAP	unknown					
+2	47pF	0603-CAP	unknown					
+2		CPOL-RADIAL-10UF-25V	unknown					
+1	MCP42XXX	SO014	unknown					
+1	IC_FT311D-LQFP-32	LQFP-32	unknown					
+1		TO220-IGO	unknown					
+1	DURACLIK-4SMD	DURACLIK-4	unknown					
+1		2X3	unknown					
+1		JP1	unknown					
+1		MOLEX-1X4_LOCK	unknown					
+1		FB805	unknown					
+1	OSHW-LOGOM	OSHW-LOGO-M	unknown					
+1	PCB_DP_RECTANGLE-80X100	DP10080_V1	unknown					
+1	MMBT3904	SOT23-BEC	unknown					
+3	10K	0603-RES	unknown					
+1	110K	0603-RES	unknown					
+1	100K	0603-RES	unknown					
+3	620	0603-RES	unknown					
+2	27	0603-RES	unknown					
+2	47K	0603-RES	unknown					
+1	4.7K	0603-RES	unknown					
+1	820	0603-RES	unknown					
+1	33K	0603-RES	unknown					
+1	7.5K	0603-RES	unknown					
+3	1M	0603-RES	unknown					
+3	51K	0603-RES	unknown					
+2	1.1K	0603-RES	unknown					
+2	1.0K	0603-RES	unknown					
+1	SPI	MOLEX-1X4_LOCK	unknown					
+1	XMEGA-A3-AU	TQFP64_14X14MM	unknown					
+1	MICROSD	MICROSD	unknown					
+1	z	SOT-23	unknown					
+2	MOLEX15_PIN	MOLEX15PIN	unknown					
+1	FPF2700	FPF2700	unknown					
+1	MAX232TSSOP	TSSOP16	unknown					
+1		SOT-223	unknown					
+1		DB9_MALE	unknown					
+1		CRYSTAL-TXC-7A	unknown					
+1	12mHz	CRYSTAL-TXC-7A	unknown					
